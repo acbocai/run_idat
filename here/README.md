@@ -11,7 +11,8 @@ ida 7.0
 ###### (6)脚本的print(),将输出到log中  
 
 ## 注意：
-脚本中的输出文件路径，可使用变量idc.ARGV[1],值固定为"\output\***.json"
+脚本中的输出文件路径，可使用变量idc.ARGV[1],  
+值固定为"\output\***.json"
 
 ## 目录说明：
 IDA_Pro_v7.0_Portable： 存放idat.exe  
