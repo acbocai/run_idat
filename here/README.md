@@ -14,9 +14,9 @@ ida 7.0
 脚本中的输出文件路径，可使用变量idc.ARGV[1],值固定为"\output\***.json"
 
 #### 目录说明：
-IDA_Pro_v7.0_Portable： 存放idat.exe
-input：                 存放待分析的可执行文件
-log：                   存放IDA脚本运行日志
-output：                存放IDA脚本的输出
-script：                存放IDA脚本
-src(run)：              工具源代码
+IDA_Pro_v7.0_Portable： 存放idat.exe  
+input：                 存放待分析的可执行文件  
+log：                   存放IDA脚本运行日志  
+output：                存放IDA脚本的输出  
+script：                存放IDA脚本  
+src(run)：              工具源代码  
