@@ -1,0 +1,54 @@
+
+v7.00 48-3FBD-7F04-2C Jiang Ying, Personal license
+
+Your support plan might have expired.
+To renew it, please visit our web site:
+
+https://www.hex-rays.com/idapro/idaupgrade.htm
+
+Thank you for using IDA! -> OK
+Possible file format: MS-DOS executable (EXE) (C:\Users\HAHA\AndroidStudioProjects\RUN_IDAT\IDA_Pro_v7.0_Portable\loaders\dos.dll)
+Possible file format: Portable executable for 80386 (PE) (C:\Users\HAHA\AndroidStudioProjects\RUN_IDAT\IDA_Pro_v7.0_Portable\loaders\pe.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  2654208   324 8192 allocating memory for b-tree...
+  2654208   324 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  5570560            total memory allocated
+
+Loading file 'C:\Users\HAHA\AndroidStudioProjects\RUN_IDAT\input\NoxVMC-x86.dll' into database...
+Detected file format: Portable executable for 80386 (PE)
+Loading processor module C:\Users\HAHA\AndroidStudioProjects\RUN_IDAT\IDA_Pro_v7.0_Portable\procs\pc.dll for metapc...OK
+Autoanalysis subsystem has been initialized.
+  0. Creating a new segment  (10001000-10030000) ... ... OK
+  1. Creating a new segment  (10030000-1004A000) ... ... OK
+  2. Creating a new segment  (1004A000-10053000) ... ... OK
+Reading exports directory...
+Reading imports directory...
+Applying fixups...
+  3. Creating a new segment  (10030224-1004A000) ... ... OK
+PDB: using DIA dll "C:\Program Files\Common Files\Microsoft Shared\VC\msdia90.dll"
+PDB: DIA interface version 9.0
+PDB: could not process file C:\Users\HAHA\AndroidStudioProjects\RUN_IDAT\input\NoxVMC-x86.dll with DIA: Failed to open the file, or the file has an invalid format (E_PDB_NOT_FOUND)
+Assuming __cdecl calling convention by default
+Type library 'vc6win' loaded. Applying types...
+Types applied to 51 names.
+Plan  FLIRT signature: Microsoft VisualC 2-14/net runtime
+autoload.cfg: vc32rtf.sig autoloads mssdk.til
+Type library 'mssdk' loaded. Applying types...
+Types applied to 2 names.
+main() function at 100218B0, named "_DllMain@12"
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'C:\Users\HAHA\AndroidStudioProjects\RUN_IDAT\input\NoxVMC-x86.dll' has been successfully loaded into the database.
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Using FLIRT signature: Microsoft VisualC 2-14/net runtime
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+haha
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Users\HAHA\AndroidStudioProjects\RUN_IDAT\IDA_Pro_v7.0_Portable\procs\pc.dll...
